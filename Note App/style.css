@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #7771f4;
+}
+.container{
+    width: 500px;
+    margin-top: 100px auto 0;
+    padding: 40px;
+    border: 1px solid black;
+}
