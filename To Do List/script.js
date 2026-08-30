@@ -37,3 +37,6 @@ function show(){
     listItem.innerHTML=localStorage.getItem("data")
 }
 show();
+
+
+
