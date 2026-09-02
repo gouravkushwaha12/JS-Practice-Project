@@ -17,8 +17,9 @@ async function getdata(){
 function tweet(){
     window.open(`https://x.com/intent/tweet?text=${quotebox.innerHTML}`)
 }
-
+getdata();
 
 btn.addEventListener("click",()=>{
-   getdata();
+//    window.location.reload();
+getdata();
 })
